@@ -6,6 +6,8 @@
     "codespaces": {
       "openFiles": [
         "README.md",
+        "bau_zh.pdf",
+        "bau_zh_2.pdf",
         "streamlit_app.py"
       ]
     },
