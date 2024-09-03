@@ -24,7 +24,7 @@ def document_data(query, chat_history):
 
    #https://www.estv.admin.ch/dam/estv/de/dokumente/estv/steuersystem/dossier-steuerinformationen/b/b-kryptowaehrung.pdf.download.pdf/b-kryptowaehrung.pdf
    #pdf_path = 'b-kryptowaehrung.pdf'
-   pdf_path = 'bau_zh.pdf'
+   pdf_path = './bau_zh.pdf'
    loader = PyMuPDFLoader(file_path=pdf_path)
    doc = loader.load()
 
@@ -33,7 +33,7 @@ def document_data(query, chat_history):
    text = text_splitter.split_documents(documents= doc) 
 
    #Adding additional docs
-   loader = PyMuPDFLoader("bau_zh_2.pdf")
+   loader = PyMuPDFLoader("./bau_zh_2.pdf")
    doc_new = loader.load()
    text_new = loader.load_and_split(text_splitter)
    text += text_new
