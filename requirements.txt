@@ -5,3 +5,5 @@ langchain-text-splitters
 langchain-huggingface
 langchain-community
 faiss-cpu
+PyPDF2
+pandas
