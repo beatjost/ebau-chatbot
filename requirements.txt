@@ -6,4 +6,5 @@ langchain-huggingface
 langchain-community
 faiss-cpu
 PyPDF2
+PyMuPDF
 pandas
