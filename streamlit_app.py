@@ -103,7 +103,7 @@ if __name__ == '__main__':
        st.session_state["chat_history"]=[]
 
    if prompt:
-      with st.spinner("Generating......"):
+      with st.spinner("Antwort wird generiert..."):
          output=document_data(query=prompt, chat_history = st.session_state["chat_history"])
 
          # Storing the questions, answers and chat history
